@@ -1,0 +1,186 @@
+{
+    "title": "Table",
+    "rows": 40,
+    "columns": 14,
+    "columnHeaders": [
+        {
+            "name": "DpCode",
+            "dataType": "text"
+        },
+        {
+            "name": "DpName",
+            "dataType": "text"
+        },
+        {
+            "name": "Source",
+            "dataType": "text"
+        },
+        {
+            "name": "CompanyName",
+            "dataType": "text"
+        },
+        {
+            "name": "Description",
+            "dataType": "text"
+        },
+        {
+            "name": "Response",
+            "dataType": "text"
+        },
+        {
+            "name": "Derived_Response",
+            "dataType": "text"
+        },
+        {
+            "name": "Formula",
+            "dataType": "text"
+        },
+        {
+            "name": "TextSnippet",
+            "dataType": "text"
+        },
+        {
+            "name": "PageNo",
+            "dataType": "text"
+        },
+        {
+            "name": "ScreenShot",
+            "dataType": "text"
+        },
+        {
+            "name": "AnalystComment",
+            "dataType": "text"
+        },
+        {
+            "name": "Error",
+            "dataType": "text"
+        },
+        {
+            "name": "Comment",
+            "dataType": "text"
+        }
+    ],
+    "rowHeaders": [
+        "2013-2014",
+        "2014-2015",
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020"
+    ],
+    "cellValues": [
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            1123,
+            "=SUM(F1, 2)",
+            "SUM(F1, 2)",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ],
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            89,
+            "=SUM(F1, F2, 2)",
+            "SUM(F1, F2, 2)",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ],
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            8123,
+            "=SUM(F2, 2)",
+            "SUM(F2, 2)",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ],
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            12002,
+            "=SUM(F3, 2)",
+            "SUM(F3, 2)",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ],
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            919,
+            "=IF(F4 > F3,\"TRUE\",\"FALSE\")",
+            "IF(F4 > F3,\"TRUE\",\"FALSE\")",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ],
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            8000,
+            "=AVERAGE(F5, 2)",
+            "AVERAGE(F5, 2)",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ],
+        [
+            "ANTP001",
+            "Staggered Board",
+            "Intergrated Report",
+            "Crompton Greaves Consumer Electricals Limited",
+            "Does the company have staggered board ?",
+            12329,
+            "=SUM(F1, F6, 2)",
+            "SUM(F1, F6, 2)",
+            "No Way",
+            "98",
+            "ScreenShot",
+            "",
+            true,
+            ""
+        ]
+    ]
+}
